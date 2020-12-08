@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.positon-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        color: rgb(146, 56, 56);
+    }
+    input[type='color'] {
+        width: 10rem;
+        height: 3rem;
+        margin: 1rem 0rem;
+        cursor: pointer;
+        border: 3px solid red;
+    }
+    button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.4rem;
+        border: 2px solid blue;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: hsl(249, 85%, 74%);
+        border-radius: 25px;
+        background-color: transparent;
+    }
+}

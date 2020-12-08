@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.positon-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.positon-center h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #923838;
+}
+
+.positon-center input[type='color'] {
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem 0rem;
+  cursor: pointer;
+  border: 3px solid red;
+}
+
+.positon-center button {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.4rem;
+  border: 2px solid blue;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #9584f5;
+  border-radius: 25px;
+  background-color: transparent;
+}
+/*# sourceMappingURL=main.css.map */
